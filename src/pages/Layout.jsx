@@ -4,9 +4,9 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Home, Package, Menu, X, FileText, Search, Plus, ChevronUp, ChevronDown } from "lucide-react";
-import TombIcon from "./components/icons/TombIcon";
-import KantharosIcon from "./components/icons/KantharosIcon";
-import WarriorHeadIcon from "./components/icons/WarriorHeadIcon";
+import TombIcon from "@/components/icons/TombIcon";
+import KantharosIcon from "@/components/icons/KantharosIcon";
+import WarriorHeadIcon from "@/components/icons/WarriorHeadIcon";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Layout({ children }) {
